@@ -18,6 +18,7 @@ import org.telegram.telegrambots.meta.bots.AbsSender;
 @AllArgsConstructor
 public class GetPriceCommand implements IBotCommand {
 
+
     private final CryptoCurrencyService service;
 
     @Override
